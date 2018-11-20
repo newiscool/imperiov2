@@ -1,0 +1,51 @@
+[07-Nov-2018 13:18:35 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/themes/NICWP-imperio/index.php on line 89
+[07-Nov-2018 13:19:45 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/themes/NICWP-imperio/index.php on line 88
+[07-Nov-2018 14:27:35 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting endswitch (T_ENDSWITCH) or case (T_CASE) or default (T_DEFAULT) in /app/public/wp-content/themes/NICWP-imperio/footer.php on line 72
+[07-Nov-2018 14:27:41 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting endswitch (T_ENDSWITCH) or case (T_CASE) or default (T_DEFAULT) in /app/public/wp-content/themes/NICWP-imperio/footer.php on line 72
+[07-Nov-2018 15:36:42 UTC] PHP Parse error:  syntax error, unexpected 'endswitch' (T_ENDSWITCH), expecting end of file in /app/public/wp-content/themes/NICWP-imperio/footer.php on line 150
+[07-Nov-2018 15:37:29 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /app/public/wp-content/themes/NICWP-imperio/footer.php on line 149
+[14-Nov-2018 15:09:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_svg() in /app/public/wp-content/themes/NICWP-imperio/header.php:63
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/NICWP-imperio/index.php(14): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/NICWP-imperio/header.php on line 63
+[14-Nov-2018 15:10:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_svg() in /app/public/wp-content/themes/NICWP-imperio/header.php:63
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/NICWP-imperio/index.php(14): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/NICWP-imperio/header.php on line 63
+[19-Nov-2018 23:18:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1067
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): woocommerce_template_loop_product_title('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-content/plugins/woocommerce/templates/content-product.php(49): do_action('woocommerce_sho...')
+#4 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#5 /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(178): load_template('/app/public/wp-...', false)
+#6 /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(643): wc_get_template_part('content', 'product')
+#7 /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#8 /app/publ in /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1067
+[19-Nov-2018 23:20:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1068
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): woocommerce_template_loop_product_title('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-content/plugins/woocommerce/templates/content-product.php(49): do_action('woocommerce_sho...')
+#4 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#5 /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(178): load_template('/app/public/wp-...', false)
+#6 /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(643): wc_get_template_part('content', 'product')
+#7 /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#8 /app/publ in /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1068
+[19-Nov-2018 23:23:20 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1068

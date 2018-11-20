@@ -1,0 +1,26 @@
+2018-11-19T23:18:35+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1067
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): woocommerce_template_loop_product_title('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-content/plugins/woocommerce/templates/content-product.php(49): do_action('woocommerce_sho...')
+#4 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#5 /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(178): load_template('/app/public/wp-...', false)
+#6 /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(643): wc_get_template_part('content', 'product')
+#7 /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#8 /app/publ, em /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php, na linha 1067
+
+2018-11-19T23:20:40+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1068
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): woocommerce_template_loop_product_title('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-content/plugins/woocommerce/templates/content-product.php(49): do_action('woocommerce_sho...')
+#4 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#5 /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(178): load_template('/app/public/wp-...', false)
+#6 /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(643): wc_get_template_part('content', 'product')
+#7 /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#8 /app/publ, em /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php, na linha 1068
+
+2018-11-19T23:23:20+00:00 CRITICAL syntax error, unexpected '<', em /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php, na linha 1068
+

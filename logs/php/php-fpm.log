@@ -1,0 +1,24 @@
+[06-Nov-2018 16:04:55] NOTICE: fpm is running, pid 33
+[06-Nov-2018 16:04:55] NOTICE: ready to handle connections
+[07-Nov-2018 12:44:05] NOTICE: fpm is running, pid 24
+[07-Nov-2018 12:44:05] NOTICE: ready to handle connections
+[07-Nov-2018 13:51:35] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[07-Nov-2018 16:31:15] NOTICE: Terminating ...
+[07-Nov-2018 16:31:15] NOTICE: exiting, bye-bye!
+[08-Nov-2018 14:20:06] NOTICE: fpm is running, pid 50
+[08-Nov-2018 14:20:06] NOTICE: ready to handle connections
+[08-Nov-2018 20:48:09] NOTICE: Terminating ...
+[08-Nov-2018 20:48:09] NOTICE: exiting, bye-bye!
+[08-Nov-2018 20:50:39] NOTICE: fpm is running, pid 50
+[08-Nov-2018 20:50:39] NOTICE: ready to handle connections
+[08-Nov-2018 20:50:50] NOTICE: Terminating ...
+[08-Nov-2018 20:50:50] NOTICE: exiting, bye-bye!
+[08-Nov-2018 20:50:58] NOTICE: fpm is running, pid 34
+[08-Nov-2018 20:50:58] NOTICE: ready to handle connections
+[08-Nov-2018 20:51:30] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[08-Nov-2018 21:56:40] NOTICE: Terminating ...
+[08-Nov-2018 21:56:40] NOTICE: exiting, bye-bye!
+[14-Nov-2018 11:41:38] NOTICE: fpm is running, pid 48
+[14-Nov-2018 11:41:38] NOTICE: ready to handle connections
+[19-Nov-2018 11:36:13] NOTICE: fpm is running, pid 82
+[19-Nov-2018 11:36:13] NOTICE: ready to handle connections
